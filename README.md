@@ -1,4 +1,5 @@
 # g6-editor
+
 这是一个拖拽节点的流程编辑器,基于[g6开发](https://github.com/antvis/g6)，api实现参照[g6-editor](https://github.com/antvis/g6-editor)，目前antvis/g6-editor不开源，故而自己撸一个用。
 第一版本还在开发中，目前支持itempannel和toolbar。
 
@@ -7,6 +8,8 @@
 
 接下来下来继续支持toolbar功能以及节点上支持dom覆盖可配置选项和交互功能。
 
-cd demos/my-app  
-yarn 
-npm start  
+cd demos/my-app
+yarn
+npm start
+
+ add `<script src="https://gw.alipayobjects.com/os/antv/assets/g6/1.2.8/g6.min.js"></script>` in html
